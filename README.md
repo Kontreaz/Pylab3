@@ -109,7 +109,6 @@ print(my_array1)
 print(my_array1.tounicode())
 ```
 
- # 1zadanie
 ```Python
 word = "spam"
 my_array = array(str('u'), [])
