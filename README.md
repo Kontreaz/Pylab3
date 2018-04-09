@@ -341,9 +341,9 @@ python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy
 
     :small_blue_diamond:`s` - ♠ pik (spades)
 
-Każdym elementem listy powinna być krotka, będąca parą (ranga, kolor). Przykładowo as pik:
-# 🂡
-reprezentowany będzie jako ('A', 's'). Lista powinna zawierać 52 elementy (13 rang * 4 kolory).
+    Każdym elementem listy powinna być krotka, będąca parą (ranga, kolor). Przykładowo as pik:
+    # 🂡
+    reprezentowany będzie jako ('A', 's'). Lista powinna zawierać 52 elementy (13 rang * 4 kolory).
 
 2. shuffle_deck(deck) - przyjmuje listę kart, zwraca karty potasowane (permutacja). Skorzystaj z: 
 
