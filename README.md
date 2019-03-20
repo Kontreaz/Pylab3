@@ -253,7 +253,7 @@ squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 print(squares[:7])
 print(squares[7:])
 ```
->Wycinanaie można też wykonać na krotkach
+>Wycinanie można też wykonać na krotkach
   Wycinanie z list może się również odbywać z użyciem trzeciej liczby reprezentującej krok dla pobranych wartości z listy
 ```Python
 squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
