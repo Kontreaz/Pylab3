@@ -3,8 +3,8 @@
 ### Tablice
 
  Tablice w Pythonie nie są takie jak tablice znane z Javy lub C ale bardziej przypominają listy.
- Tablica jest strukturą danych przechowującą wartości tego samego typu
- Jest to główna różnica między tablicami i listami w pythonie
+ Tablica jest strukturą danych przechowującą wartości tego samego typu.
+ Jest to główna różnica między tablicami i listami w pythonie.
  Aby móc używać tablic w pythonie trzeba zaimpotrować ze standardowych bibliotek pythona
  moduł `array` dlatego, że tablice w pythonie nie są uznawane za podstawowe typy danych jakimi są np watości
  całkowite czy ciągi znaków
@@ -169,7 +169,7 @@ squares[8] = 64
 squares[3] = 9
 squares[5] = 25
 ```
-Do weryfikacji czy klucz znajduje się już w słowniku można wykożystać operatory `in` i `not in` tak jak dla list.
+Do weryfikacji czy klucz znajduje się już w słowniku można wykorzystać operatory `in` i `not in` tak jak dla list.
 ```Python
 nums = {1: "one",
         2: "two",
@@ -314,7 +314,7 @@ for v in enumerate(nums):
   
 :three: Wypełniający tablicę liczbami losowymi rzeczywistymi z przedziału (-5,5). Wartość tablicy zapisz do pliku _result.txt_
 
-:four: Napisz funkcję tworzącą tablicę dwuwymiarową _(5x5)_ która zostanie wypełniona kwadratami liczb z komórek z wiersza wcześniejszego. Pierwszy wiersz wypełniony wartościami 2,3,4,5,6. Do utworzenia tablicy dwuwymiarowej wykożystaj bibiotekę NumPy.
+:four: Napisz funkcję tworzącą tablicę dwuwymiarową _(5x5)_ która zostanie wypełniona kwadratami liczb z komórek z wiersza wcześniejszego. Pierwszy wiersz wypełniony wartościami 2,3,4,5,6. Do utworzenia tablicy dwuwymiarowej wykorzystaj bibiotekę NumPy.
 Bibliotekę można zainstalować przy pomocy polecenia:
 ```Bash
 python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
