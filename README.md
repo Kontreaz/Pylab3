@@ -178,7 +178,7 @@ print(1 in nums)
 print("three" in nums)
 print(4 not in nums)
 ```
- Metoda `get` służy do pobierania elemetów ze słownika. W przypadku gdy podany argument(klucz) nie zostanie zlaeziony w słowniku
+ Metoda `get` służy do pobierania elemetów ze słownika. W przypadku gdy podany argument(klucz) nie zostanie znaleziony w słowniku
  metoda zwróci obiekt `None`
 ```Python
 pairs = {
@@ -190,7 +190,7 @@ print(pairs.get(True))
 print(pairs.get(1235, "not in dictionary"))
 print(len(pairs))
 ```
- Odczytywanie danych ze słownika może odbywać się z wykożystaniem metody `get`
+ Odczytywanie danych ze słownika może odbywać się z wykorzystaniem metody `get`
 ```Python
 for i in pairs:
     print(str(i) + "\t" + str(pairs.get(i)))
@@ -224,7 +224,7 @@ print(dict([('d', 4), ('e', 5), ('f', 6)]))
 print(dict([('a', 1)], b=2, c=3))
 print(dict({'a': 1, 'b': 2}, c=3))
 ```
- Krotki `Tuples` sa podobne do list z wyjątkiem tego, że nie można ich zmieniać tworzy się je z wykożystaniem nawiasów okrągłych
+ Krotki `Tuples` sa podobne do list z wyjątkiem tego, że nie można ich zmieniać tworzy się je z wykorzystaniem nawiasów okrągłych
 words = ("spam", "eggs", "saussages")
  Dostęp do elemenntu uzyskuje się przez podanie nazwy i numeru parametru objętego w nawiasy kwadratowe
 
