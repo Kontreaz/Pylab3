@@ -31,7 +31,7 @@ Parametr (typ przechowywanych danych) | Opis
  f | Reprezentuje zmiennoprzecinkowy rozmiar 4 bajtów
  d | Reprezentuje zmiennoprzecinkowy rozmiar 8 bajtów
  
- Pojedyńcze elementy pobiera się przy pomocy odwołania do indeksu na którym znajduje się element, tablice inseksowne są od 0
+ Pojedyńcze elementy pobiera się przy pomocy odwołania do indeksu na którym znajduje się element, tablice indeksowane są od 0
 ```Python
 from builtins import print
 
@@ -54,9 +54,9 @@ Dodawanie kolejnego indeksu do tablicy używając metody `insert`. Metoda `inser
 ```Python
 my_array.insert(0, 0)
 ```
-Wstawianiana wartość umieszczana jest w odpowiednie miejsce w tablicy przesówając dalszą część tablicy o jednen indeks.
+Wstawiana wartość umieszczana jest w odpowiednie miejsce w tablicy przesuwając dalszą część tablicy o jeden indeks.
 
-W pythonie jest możliwość rozszerzania tablicy przez więcej niż jedną wartość przy użyciiu metody `extend`
+W pythonie jest możliwość rozszerzania tablicy przez więcej niż jedną wartość przy użyciu metody `extend`
 ```Python
 my_array = array('i', [1, 2, 3, 4, 5])
 my_extend_array = array("i", [6, 7, 8, 9, 10])
@@ -69,12 +69,12 @@ my_array = array('i', [1, 2, 3, 4, 5])
 c = [11, 12, 13]
 my_array.fromlist(c)
 ```
-Usówanie elementu z listy z użyciem metody `remove'
+Usuwanie elementu z listy z użyciem metody `remove'
 ```Python
 my_array = array('i', [1, 2, 3, 4, 5])
 my_array.remove(4)
 ```
-Usówanie ostatniego elementu z tablicy metodą `pop`
+Usuwanie ostatniego elementu z tablicy metodą `pop`
 ```Python
 my_array = array('i', [1, 2, 3, 4, 5])
 my_array.pop()
@@ -127,7 +127,7 @@ my_array.extend(" egg")
 print(my_array.tounicode())
 ```
 ### None
- Obiekt `None` jest używany do reprezentacji braku wartości, jest on podobny do `null'a` w innych językacj programowania
+ Obiekt `None` jest używany do reprezentacji braku wartości, jest on podobny do `null'a` w innych językach programowania
  Tak jaki inne puste wartości jak np. 0, [] i pusty ciąg znaków, jest on fałszem gdy skonwertujemy go na wartość logiczną:
 print("none")
 print(bool(None))
@@ -228,7 +228,7 @@ print(dict({'a': 1, 'b': 2}, c=3))
 words = ("spam", "eggs", "saussages")
  Dostęp do elemenntu uzyskuje się przez podanie nazwy i numeru parametru objętego w nawiasy kwadratowe
 
- Próba podmiany któregoś elementu na inny skutkuje błędem `TypeError`. Krotki podobnie jak słowniki i listy mogą się nawzajem zagnieżdzać.  Krotki można też tworzyć bez użycia nawiasów oddzielając vartości przecinkami.
+ Próba podmiany któregoś elementu na inny skutkuje błędem `TypeError`. Krotki podobnie jak słowniki i listy mogą się nawzajem zagnieżdzać. Krotki można też tworzyć bez użycia nawiasów oddzielając wartości przecinkami.
 ```Python
 my_tuple = "one", "two", "three"
 print(my_tuple[0])
@@ -295,7 +295,7 @@ print("{x},{y}".format(x=2, y=3))
 ```
  Często używane w instrukcjach warunkowych, funkcje `all` i `any` przyjmują listę jako argument  zwracają wartość `True`
  Jeśli odpowiednio wszystkie lub który kolwiek z jej argumentów ocenia się jako `True`.
- Funkcja `enumerate` może być użyta do ieracji przez wszystkie wartości i indeksy listy jednocześnie.
+ Funkcja `enumerate` może być użyta do iteracji przez wszystkie wartości i indeksy listy jednocześnie.
 ```Python
 nums = [55, 44, 33, 22, 11]
 
