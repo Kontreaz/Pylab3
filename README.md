@@ -320,7 +320,7 @@ Bibliotekę można zainstalować przy pomocy polecenia:
 python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 ```
 
-:five: Napisz funkcję, która jako parametr przyjmujelokalizację pliku tekstowego który zawiera dowolny tekst i zwraca histogram znaków występujących w tym napisie (czyli pary znak-liczba wystąpień). Wynikiem powinien być słownik. Przykład:
+:five: Napisz funkcję, która jako parametr przyjmuje lokalizację pliku tekstowego który zawiera dowolny tekst i zwraca histogram znaków występujących w tym napisie (czyli pary znak-liczba wystąpień). Wynikiem powinien być słownik. Przykład:
 
 `>>> histogram("document.txt")`
  dokument zawiera tekst: _Ala ma kota_
