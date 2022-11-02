@@ -224,11 +224,11 @@ print(dict([('d', 4), ('e', 5), ('f', 6)]))
 print(dict([('a', 1)], b=2, c=3))
 print(dict({'a': 1, 'b': 2}, c=3))
 ```
- Krotki `Tuples` sa podobne do list z wyjątkiem tego, że nie można ich zmieniać tworzy się je z wykorzystaniem nawiasów okrągłych
+ Krotki `Tuples` są podobne do list z wyjątkiem tego, że nie można ich zmieniać tworzy się je z wykorzystaniem nawiasów okrągłych
 words = ("spam", "eggs", "saussages")
- Dostęp do elemenntu uzyskuje się przez podanie nazwy i numeru parametru objętego w nawiasy kwadratowe
+ Dostęp do elementu uzyskuje się przez podanie nazwy i numeru parametru objętego w nawiasy kwadratowe
 
- Próba podmiany któregoś elementu na inny skutkuje błędem `TypeError`. Krotki podobnie jak słowniki i listy mogą się nawzajem zagnieżdzać. Krotki można też tworzyć bez użycia nawiasów oddzielając wartości przecinkami.
+ Próba podmiany któregoś elementu na inny skutkuje błędem `TypeError`. Krotki podobnie jak słowniki i listy mogą się nawzajem zagnieżdżać. Krotki można też tworzyć bez użycia nawiasów oddzielając wartości przecinkami.
 ```Python
 my_tuple = "one", "two", "three"
 print(my_tuple[0])
