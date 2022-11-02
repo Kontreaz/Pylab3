@@ -133,10 +133,10 @@ print("none")
 print(bool(None))
 print("None")
 
- Obiekt `None` jest zwracany przez funkcję gdy bezpośrenio nie zwraca ona niczego konkretnego.
+ Obiekt `None` jest zwracany przez funkcję gdy bezpośrednio nie zwraca ona niczego konkretnego.
 
 ### Słowniki
-Słowniki są strukturą danych która służy do mapowania dowolnych kluczy na wartość. Słowniki moga być indeksowane tak samo jak listy przy użyciu kwadratowych nawiasów zawierających klucz
+Słowniki są strukturą danych która służy do mapowania dowolnych kluczy na wartość. Słowniki mogą być indeksowane tak samo jak listy przy użyciu kwadratowych nawiasów zawierających klucz
 ```Python
 ages = {"I": 78, "You": 20, "Him": 24}
 print(ages["I"])
