@@ -178,7 +178,7 @@ print(1 in nums)
 print("three" in nums)
 print(4 not in nums)
 ```
- Metoda `get` służy do pobierania elemetów ze słownika. W przypadku gdy podany argument(klucz) nie zostanie znaleziony w słowniku
+ Metoda `get` służy do pobierania elementów ze słownika. W przypadku gdy podany argument(klucz) nie zostanie znaleziony w słowniku
  metoda zwróci obiekt `None`
 ```Python
 pairs = {
