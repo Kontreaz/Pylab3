@@ -31,7 +31,7 @@ Parametr (typ przechowywanych danych) | Opis
  f | Reprezentuje zmiennoprzecinkowy rozmiar 4 bajtów
  d | Reprezentuje zmiennoprzecinkowy rozmiar 8 bajtów
  
- Pojedyńcze elementy pobiera się przy pomocy odwołania do indeksu na którym znajduje się element, tablice indeksowane są od 0
+ Pojedyncze elementy pobiera się przy pomocy odwołania do indeksu na którym znajduje się element, tablice indeksowane są od 0
 ```Python
 from builtins import print
 
