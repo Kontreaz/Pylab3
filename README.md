@@ -217,7 +217,7 @@ from itertools import chain
 print(dict(chain(fish.items(), dog.items())))
 ```
  Konstruktor `dict()` może być użyty do tworzenia słowników z argumentów będących kluczem z przypisana do niego wartością
- lub z pojedyńczej iteracji par klucz-wartość lub z pojedyńczego słownika i argumentów słów kluczowych
+ lub z pojedynczej iteracji par klucz-wartość lub z pojedynczego słownika i argumentów słów kluczowych
 ```Python
 print(dict(a=1, b=2, c=3))
 print(dict([('d', 4), ('e', 5), ('f', 6)]))
