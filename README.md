@@ -310,7 +310,7 @@ for v in enumerate(nums):
 ## Zadania do wykonania
 :one: Wypróbuj kody z _listingów_ znajdujących się w instrukcji i sprawdź ich działanie.
 
-:two: Napisz skrypt wypełniający tablicę znakami, a następnie wyświet znaki w kolejności odwrotnej do wprowadzania. Dane wprowadzane z klawiatury.
+:two: Napisz skrypt wypełniający tablicę znakami, a następnie wyświetl znaki w kolejności odwrotnej do wprowadzania. Dane wprowadzane z klawiatury.
   
 :three: Wypełniający tablicę liczbami losowymi rzeczywistymi z przedziału (-5,5). Wartość tablicy zapisz do pliku _result.txt_
 
