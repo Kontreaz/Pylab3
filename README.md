@@ -93,7 +93,7 @@ my_array = array('i', [1, 2, 3, 4, 5])
 my_array.reverse()
 print(my_array)
 ```
-Możliwe jest też sprawdzenie pod jakim adresem w pamięcie komputera znajduje się dana tablica oraz jaką ma długość
+Możliwe jest też sprawdzenie pod jakim adresem w pamięci komputera znajduje się dana tablica oraz jaką ma długość
 ```Python
 my_array = array('i', [1, 2, 3, 4, 5])
 print(my_array.buffer_info())
